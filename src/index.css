@@ -3,11 +3,6 @@ html, body{
      font-size: 1.3rem;
 }
 
-h3{
-     margin-left: 15px;
-}
-  
-
 .fileInput{
      border-bottom: 4px solid lightgray;
      border-right: 4px solid lightgray;
@@ -16,7 +11,6 @@ h3{
      padding: 10px;
      margin: 15px;
      cursor: pointer;
-     /* float: left; */
 }
 
 .previewText{
@@ -52,8 +46,16 @@ h3{
      justify-content: center;
 }
   
-/* .container-validar{ */
-/*      border: 2px solid blue; */
-/*      display: flex; */
-/*      align-items: center; */
-/* } */
+@media all and (max-width:1208px){
+     html, body{
+          font-family: "Helvetica Neue",Arial, Helvetica, sans-serif;
+          font-size: 1.0rem;
+          
+     }
+
+     .previewComponent{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+     }
+}

@@ -22,7 +22,7 @@ const ImageUpload = () => {
   return (
     <div className="previewComponent">
       
-      <h3>Validar tamaño de imagen</h3>
+      <h3>Ajustar imagenes a tamaño A4</h3>
      
       <div className="container-validar">
         <input className="fileInput" type="file" accept="jpeg,.jpg" onChange={(e) => handleImageChange(e)}/>
