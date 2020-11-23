@@ -1,9 +1,9 @@
 import React ,{useState} from 'react'
 
-export const ResizeImage = ({dimensiones}) => {
+export const ResizeImage = ({width, height}) => {
      const [estOriginal, setestOriginal] = useState(false);
      const [redimension, setRedimension] = useState({});
-     const {width, height} = dimensiones;
+     /* {width, height} = dimensiones; */
      const resize = (width,height)=>{
           let orientacion;
           let shortSideMax =796; 
