@@ -3,9 +3,8 @@ import React ,{useState} from 'react'
 export const ResizeImage = ({dimensiones}) => {
      const [estOriginal, setestOriginal] = useState(false);
      const [redimension, setRedimension] = useState({});
-     const {width,height} = dimensiones
+     const {width, height} = dimensiones;
      const resize = (width,height)=>{
-          console.log(width,height);
           let orientacion;
           let shortSideMax =796; 
           let longSideMax = 1123;
@@ -19,7 +18,7 @@ export const ResizeImage = ({dimensiones}) => {
           if (width >= height){
                orientacion ="Horizontal";
                if (width <= longSideMax && height <= shortSideMax)
-               return {width: width, heigth: height, orientacion: orientacion} ;
+                    return {width: width, heigth: height, orientacion: orientacion} ;
 
                wRatio = longSideMax / width;
                hRatio = shortSideMax / height;
@@ -32,7 +31,7 @@ export const ResizeImage = ({dimensiones}) => {
           else{
                orientacion = "Vertical";
                if (height <= longSideMax && width <= shortSideMax)
-               return {width: width, heigth: height, orientacion: orientacion} 
+                    return {width: width, heigth: height, orientacion: orientacion} 
             
                wRatio = shortSideMax / width; 
                hRatio = longSideMax / height; 

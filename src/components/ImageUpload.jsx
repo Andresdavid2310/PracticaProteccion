@@ -19,11 +19,6 @@ const ImageUpload = () => {
     };   
   }; 
 
-  const handleSubmit = (e) =>{
-    e.preventDefault();
-    console.log(state);
-  };
-  
   return (
     <div className="previewComponent">
       
