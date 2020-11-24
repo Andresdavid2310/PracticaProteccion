@@ -9,7 +9,6 @@ html, body{
      border-top: 1px solid black;
      border-left: 1px solid black;
      padding: 10px;
-     margin: 15px;
      cursor: pointer;
 }
 
@@ -57,5 +56,9 @@ html, body{
           display: flex;
           flex-direction: column;
           flex-wrap: wrap;
+     }
+
+     .boton-validar{
+          margin-top: 15px ;
      }
 }
