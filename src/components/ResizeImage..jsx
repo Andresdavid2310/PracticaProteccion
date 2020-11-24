@@ -58,13 +58,13 @@ export const ResizeImage = ({dimensiones}) => {
                     estOriginal ? (
                          <>  
                                                             
-                                   <p>Tamaño de la imagen Original</p>
-                                   <p>Width: {width}</p>
-                                   <p>Heigth: {height}</p>
-                                   <p>Tamaño de la imagen Modificada</p>
-                                   <p>Width: {redimension.width}</p>
-                                   <p>Heigth: {redimension.heigth}</p>
-                                   <p>Orientacion Hoja A4: {redimension.orientacion}</p>
+                              <p>Tamaño de la imagen Original</p>
+                              <p>Width: {width}</p>
+                              <p>Heigth: {height}</p>
+                              <p>Tamaño de la imagen Modificada</p>
+                              <p>Width: {redimension.width}</p>
+                              <p>Heigth: {redimension.heigth}</p>
+                              <p>Orientacion Hoja A4: {redimension.orientacion}</p>
                               
                          </>
                     ): null
